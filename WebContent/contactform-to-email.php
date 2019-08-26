@@ -1,4 +1,5 @@
 <?php
+if(!empty($_POST['websiteavsoftsol'])) die();
 if (isset($_POST["websiteavsoftsol"]) && $_POST["websiteavsoftsol"] == "") {
 
     $name = $_POST['name'];
