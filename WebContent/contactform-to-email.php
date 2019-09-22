@@ -17,7 +17,8 @@ if (isset($_POST["websiteavsoftsol"]) && $_POST["websiteavsoftsol"] == "") {
     // Send the email!
     mail($to, $email_subject, $email_body, $headers);
     // done. redirect to thank-you page.
-    header('Location: index.html');
+    $message = "Your message has been sent! Thank you!";
+    echo "<script type='text/javascript'>alert('$message');window.location = 'http://www.avsoftsol.com';</script>";
 } else {
     http_response_code(400);
     exit();
