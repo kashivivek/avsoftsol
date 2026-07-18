@@ -1,317 +1,294 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>AV</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AV Software Solutions — Digital Craftsmanship</title>
+    <meta name="description" content="AV Software Solutions — Premium IT startup delivering fluid digital solutions." />
 
-<!--    Stylesheet Files    -->
-<link rel="stylesheet" href="css/normalize.css" />
-<link rel="stylesheet" href="css/foundation.min.css" />
-<link rel="stylesheet" href="css/main.css" />
-<link rel="shortcut icon" type="image/png" href="img/cp.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 
-<!--    Javascript files are placed before </body>    -->
-<style type="text/css">
-form #website {
-	display: none;
-}
-</style>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" type="image/png" href="img/cp.png" />
 </head>
-
 <body>
-	<!--  Start Hero Section  -->
-	<section class="hero">
-		<header>
-			<div class="row">
+    <!-- Grain overlay -->
+    <div class="grain-overlay" aria-hidden="true"></div>
 
+    <!-- Floating Navigation -->
+    <nav class="pill-nav" id="main-nav">
+        <a href="#" class="logo">
+            <img src="img/cp.png" alt="AV Logo" width="36" class="nav-logo">
+        </a>
+        <div class="nav-links">
+            <a href="#services">Services</a>
+            <a href="#showcase">Showcase</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#connect">Contact</a>
+        </div>
+        <a href="#connect" class="btn-nav">Get Started →</a>
+    </nav>
 
-				<nav class="top-bar" data-topbar role="navigation">
+    <!-- ====== HERO with Parallax Background Image ====== -->
+    <section class="hero" id="hero">
+        <div class="hero-parallax-bg" data-parallax-speed="0.3">
+            <img src="img/hero.jpg" alt="" class="hero-bg-img" />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-eyebrow reveal-up">
+                <span class="eyebrow-dot"></span>
+                Available for new projects
+            </div>
+            <h1 class="hero-title">
+                <span class="line reveal-up" style="--delay:0.1s">Ideas are easy.</span>
+                <span class="line reveal-up" style="--delay:0.25s"><em class="gradient-text">Implementation</em></span>
+                <span class="line reveal-up" style="--delay:0.4s">is hard.</span>
+            </h1>
+            <p class="hero-subtitle reveal-up" style="--delay:0.55s">We make them easy too. A premium IT startup company<br>delivering fluid digital solutions.</p>
+            <div class="hero-actions reveal-up" style="--delay:0.7s">
+                <a href="#connect" class="btn-primary magnetic"><span>Start a project</span></a>
+                <a href="#services" class="btn-ghost magnetic">
+                    <span>Explore</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator reveal-up" style="--delay:1s">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
 
-					<!--    Start Logo    -->
-					<ul class="title-area">
-						<li class="name"><a href="#" class="logo"> <!--  <h1>AV</h1> -->
-								<img src="img/cp.png" width="100px">
-						</a></li>
-						<span class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></span>
-						</li>
-					</ul>
-					<!--    End Logo    -->
+    <!-- Marquee strip -->
+    <div class="marquee-strip" aria-hidden="true">
+        <div class="marquee-track">
+            <span>Strategy</span><span class="dot">◆</span>
+            <span>Design</span><span class="dot">◆</span>
+            <span>Development</span><span class="dot">◆</span>
+            <span>Testing</span><span class="dot">◆</span>
+            <span>Deployment</span><span class="dot">◆</span>
+            <span>Strategy</span><span class="dot">◆</span>
+            <span>Design</span><span class="dot">◆</span>
+            <span>Development</span><span class="dot">◆</span>
+            <span>Testing</span><span class="dot">◆</span>
+            <span>Deployment</span><span class="dot">◆</span>
+        </div>
+    </div>
 
-					<!--    Start Navigation Menu    -->
-					<section class="top-bar-section" id="mean_nav">
-						<ul class="right">
-							<li onclick="location.href='https://avsoftsol.blogspot.com/';"><a
-								href="">Blog</a></li>
-							<li onclick="location.href='http://avsoftsol.com:8096/';"><a
-								href="">Media</a></li>
-							<li><a href="#services">Services</a></li>
-							<li><a href="#testimonials">Testimonials</a></li>
-							<li><a href="#connect">Contact Us</a></li>
-						</ul>
-					</section>
-					<!--    End Navigation Menu    -->
+    <!-- ====== 3D Image Showcase Section ====== -->
+    <section class="showcase-3d" id="showcase">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-label">Our craft</span>
+                <h2>Crafting Digital Excellence</h2>
+            </div>
+        </div>
 
-				</nav>
-			</div>
-		</header>
+        <!-- Parallax Image Stack -->
+        <div class="parallax-image-stack">
+            <div class="parallax-card parallax-card-1" data-parallax-speed="-0.15">
+                <img src="img/showcase_workspace.png" alt="Workspace" />
+            </div>
+            <div class="parallax-card parallax-card-2" data-parallax-speed="0.1">
+                <img src="img/abstract_3d.png" alt="Abstract 3D" />
+            </div>
+            <div class="parallax-card parallax-card-3" data-parallax-speed="-0.08">
+                <img src="img/tech_dashboard.png" alt="Tech Dashboard" />
+            </div>
+        </div>
+    </section>
 
-		<!--    Start Hero Caption    -->
-		<section class="caption">
-			<div class="row">
-				<h1 class="mean_cap">Ideas are easy. Implementation is hard. We
-					make them easy too.</h1>
-				<h2 class="sub_cap">A IT Start up company.</h2>
-				<a href="#Download" class="btn_details"><span>Contact Us</span>
-					<img src="img/btn_arrow.png" alt="" src="" class="arrow"></a>
-			</div>
-		</section>
-		<!--    End Hero Caption    -->
+    <!-- ====== Horizontal Scroll Gallery ====== -->
+    <section class="horizontal-scroll-section">
+        <div class="hs-sticky-container">
+            <div class="hs-inner">
+                <div class="hs-panel hs-panel-text">
+                    <div class="hs-text-content">
+                        <span class="section-label">What we do</span>
+                        <h2>Our<br>Services</h2>
+                    </div>
+                </div>
+                <div class="hs-panel" id="services">
+                    <div class="service-card-img">
+                        <img src="img/hero.jpg" alt="Strategy" />
+                        <div class="service-card-overlay">
+                            <span class="service-number">01</span>
+                            <h3>Plan & Strategy</h3>
+                            <p>Defined plans, possible hurdles, and perfect reachable deadlines for all projects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hs-panel">
+                    <div class="service-card-img">
+                        <img src="img/showcase_workspace.png" alt="Design" />
+                        <div class="service-card-overlay">
+                            <span class="service-number">02</span>
+                            <h3>UI/UX Design</h3>
+                            <p>Modern fluid aesthetics and deep user engagement for web and mobile.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hs-panel">
+                    <div class="service-card-img">
+                        <img src="img/abstract_3d.png" alt="Testing" />
+                        <div class="service-card-overlay">
+                            <span class="service-number">03</span>
+                            <h3>Test The App</h3>
+                            <p>Rigorous testing with advanced automation tools for bulletproof quality.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hs-panel">
+                    <div class="service-card-img">
+                        <img src="img/tech_dashboard.png" alt="Launch" />
+                        <div class="service-card-overlay">
+                            <span class="service-number">04</span>
+                            <h3>Launch The App</h3>
+                            <p>Unique promotion strategies to drive traffic and growth to your apps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	</section>
-	<!--  End Hero Section  -->
+    <!-- ====== Full-Width Parallax Divider ====== -->
+    <section class="parallax-divider">
+        <div class="parallax-divider-img" data-parallax-speed="0.25">
+            <img src="img/hero.jpg" alt="" />
+        </div>
+        <div class="parallax-divider-overlay"></div>
+        <div class="parallax-divider-text reveal-up">
+            <blockquote>"You don't learn to walk by following rules.<br>You learn by doing and falling over."</blockquote>
+            <span class="author">— Richard Branson</span>
+        </div>
+    </section>
 
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-label">Client love</span>
+                <h2>Testimonials</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal-up" style="--delay:0.1s">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote-text">"We have doubled our business with the website developed by AV Team."</p>
+                    <div class="author-row">
+                        <div class="author-avatar">PM</div>
+                        <div class="author-info">
+                            <span class="author-name">Prakash Mainali</span>
+                            <span class="author-role">Chairman, Thali n Biryani</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal-up" style="--delay:0.2s">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote-text">"Our product is a service utility that should be liked by many people. Very impressed."</p>
+                    <div class="author-row">
+                        <div class="author-avatar">SJ</div>
+                        <div class="author-info">
+                            <span class="author-name">Sunjay</span>
+                            <span class="author-role">Co-founder, Get-it</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal-up" style="--delay:0.3s">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote-text">"A remarkable asset for our products in many conferences and client meetings."</p>
+                    <div class="author-row">
+                        <div class="author-avatar">PH</div>
+                        <div class="author-info">
+                            <span class="author-name">Phil Hadreas</span>
+                            <span class="author-role">VP Sales, Cyberforza</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Contact -->
+    <section class="contact-section" id="connect">
+        <div class="container">
+            <div class="contact-wrapper reveal-up">
+                <div class="contact-left">
+                    <span class="section-label">Let's talk</span>
+                    <h2>Let's build<br>something <em class="gradient-text">great</em>.</h2>
+                    <p>Drop us a message and we'll get back to you within 24 hours.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <span>info@avsoftsol.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Location</span>
+                            <span>San Jose, CA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form method="post" action="contactform-to-email.php" class="modern-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" required placeholder=" " />
+                            <label for="name">Your name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" required placeholder=" " />
+                            <label for="email">Your email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="4" required placeholder=" "></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+                        <input type="text" id="website" name="websiteavsoftsol" style="display:none;" />
+                        <button type="submit" class="btn-primary magnetic"><span>Send Message →</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<!--  Start Services Section  -->
-	<section class="services" id="services">
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top reveal-up">
+                <div class="footer-brand">
+                    <img src="img/cp.png" alt="AV Logo" width="50" class="nav-logo">
+                    <p>&copy; 2017–2026 AV Software Solutions.<br>All rights reserved.</p>
+                </div>
+                <div class="footer-links-group">
+                    <div class="footer-col">
+                        <h4>Social</h4>
+                        <a href="http://facebook.com/avsoftsol" target="_blank">Facebook ↗</a>
+                        <a href="http://instagram.com/avsoftsol" target="_blank">Instagram ↗</a>
+                        <a href="http://twitter.com/avsoftsol" target="_blank">Twitter ↗</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Navigation</h4>
+                        <a href="#services">Services</a>
+                        <a href="#testimonials">Testimonials</a>
+                        <a href="#connect">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>Designed with precision.</span>
+            </div>
+        </div>
+    </footer>
 
-		<!--    Start Services Titles    -->
-		<div class="row">
-			<h1 class="mean_title">Services</h1>
-			<h2 class="sub_title">We provide Web solutions, Andriod
-				Application solutions, Code debugging and Improvements to existing
-				projects etc.,</h2>
-		</div>
-		<!--    End Services Titles    -->
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
 
-		<!--    Start Services List    -->
-		<div class="row services_list">
-			<div class="small-12 medium-3 large-3 columns">
-				<img src="img/icon2.png" alt="" title="" class="serv_icon" />
-				<h2 class="title">Plan & Strategy</h2>
-				<p>We propose a defined plan, possible hurdles and a perfect
-					reachable deadlines to all projects we take up. We also assist in
-					only planning and strategising phase of your own projects too.</p>
-			</div>
+    <!-- Ripple trail canvas -->
+    <canvas id="ripple-canvas"></canvas>
 
-			<div class="small-12 medium-3 large-3 columns">
-				<img src="img/icon1.png" alt="" title="" class="serv_icon" />
-				<h2 class="title">UI/UX Design</h2>
-				<p>UI/UX for Web sites or Mobile Applications are provided. We
-					also develop and publish websites as per requirement. Mobile
-					Applications on various platforms are also done at us.</p>
-			</div>
-
-			<div class="small-12 medium-3 large-3 columns">
-				<img src="img/icon3.png" alt="" title="" class="serv_icon" />
-				<h2 class="title">Test The App</h2>
-				<p>Rigorous Testing solutions are also provided for Mobile, Web
-					based applications. We can also use automation testing tools to
-					provide statistical data for your applications testing.</p>
-			</div>
-
-			<div class="small-12 medium-3 large-3 columns">
-				<img src="img/icon4.png" alt="" title="" class="serv_icon" />
-				<h2 class="title">Launch The App</h2>
-				<p>We can publish and we have our own unique ways to promote and
-					get traffic to your Mobile/ Web Apps.</p>
-			</div>
-		</div>
-		<!--    End Services List    -->
-
-		<!--    Start Button    -->
-		<div class="btn_holder">
-			<a href="#Download" class="btn_fancy">
-				<div class="solid_layer"></div>
-				<div class="border_layer"></div>
-				<div class="text_layer">Get In Touch</div>
-			</a>
-		</div>
-		<!--    End Button    -->
-
-	</section>
-	<!--  End Services Section  -->
-
-
-
-	<!--  Start Quote Section  -->
-	<section class="quote">
-		<blockquote>
-			<p>“You don’t learn to walk by following rules. You learn by
-				doing and falling over.”</p>
-			<hr />
-			<span class="author">Richard Branson, Virgin Group Founder</span>
-		</blockquote>
-	</section>
-	<!--  End Quote Section  -->
-
-
-
-	<!--  Start Testimonials Section  -->
-	<section class="testimonials" id="testimonials">
-		<div class="row">
-			<div class="slider_container">
-				<div id="carousel">
-
-					<div class="tesimonial">
-						<img src="img/thalinbiryani.png" title="" alt="" width="auto"
-							height="200px"> <span class="name">Thali n Biryani</span>
-						<p>We have doubled our business with the website developed by
-							AV Team. We heartly thankn them for mking us to reach more number
-							of customers</p>
-						<span class="author">Prakash Mainali - Chairman</span>
-					</div>
-
-					<div class="tesimonial">
-						<img src="img/getit.png" title="" height="200px" width="auto"
-							alt=""> <span class="name">Get-it</span>
-						<p>Our Product (Mobile Application) is a Service utilty
-							product which should be liked by many people, but in return we
-							are very impressed about AV's service.</p>
-						<span class="author">Sunjay - Co-founder</span>
-					</div>
-
-					<div class="tesimonial">
-						<img src="img/cyberforza.png" height="200px" width="auto" title=""
-							alt=""> <span class="name">Cyberforza</span>
-						<p>Cyberforza's website has made a remarkable asset for our
-							products in many of our conferences and meetings with our
-							clients. We are glad to be served by them.</p>
-						<span class="author">Phil Hadreas - VP, Sales</span>
-					</div>
-
-				</div>
-			</div>
-
-			<!--    Start Testimonials Pagination    -->
-			<nav class="pagination">
-				<ul>
-					<li><a href="#">1</a></li>
-					<li><a href="#" class="selected">2</a></li>
-					<li><a href="#">3</a></li>
-				</ul>
-			</nav>
-			<!--    End Testimonials Pagination    -->
-
-		</div>
-	</section>
-	<!--  End Testimonials Section  -->
-
-
-
-	<!--  Start Call To Action Section  -->
-	<section class="cta text-center" id="Download">
-		<div class="row text-center">
-			<center>
-				<h3>Leave a Message to get back from us</h3>
-				<!--    Start CTA Titles    -->
-				<form method="post" action="contactform-to-email.php"
-					class="text-center" style="width: 50%;">
-					<div class="field half">
-						<label for="name">Name</label> <input type="text" name="name"
-							id="name" required />
-					</div>
-					<div class="field half">
-						<label for="email">Email</label> <input type="email" name="email"
-							id="email" required />
-					</div>
-					<div class="field">
-						<label for="message">Message</label>
-						<textarea name="message" id="message" rows="4" required></textarea>
-					</div>
-					<input type="text" id="website" name="websiteavsoftsol" />
-					<ul class="actions">
-						<input type="submit" value="Send Message"
-							class="btn_fancy border_layer text_layer solid_layer" />
-					</ul>
-				</form>
-			</center>
-		</div>
-	</section>
-	<!--  End Call To Action Section  -->
-
-
-
-	<!--  Start Map Section  -->
-	<section class="map" id="connect">
-
-		<!--    Start Map Shadow    -->
-		<div class="shadow"></div>
-		<!--    End Map Shadow    -->
-
-		<div id="map_container"></div>
-	</section>
-	<!--  End Map Section  -->
-
-
-
-	<!--  Start Footer Section  -->
-	<footer>
-		<div class="row">
-
-			<!--    Start Copyrights    -->
-			<div class="small-12 medium-4 large-4 columns">
-				<div class="copyrights">
-					<a class="logo" href="#"> <img src="img/cp.png" width="100px">
-					</a>
-					<p>Copyright © 2017 AV Software Solutions.</p>
-				</div>
-			</div>
-			<!--    End Copyrights    -->
-
-
-			<div class="small-12 medium-8 large-8 columns">
-				<div class="contact_details right">
-					<nav class="social">
-						<ul class="no-bullet">
-							<li><a href="http://facebook.com/avsoftsol" target="_blank">Facebook</a></li>
-							<li><a href="http://instagram.com/avsoftsol" target="_blank">Instagram</a></li>
-							<li><a href="http://twitter.com/avsoftsol" target="_blank">Twitter</a></li>
-													</ul>
-					</nav>
-
-					<div class="contact">
-						<div class="details">
-							<p>info@avsoftsol.com</p>
-						</div>
-
-						<p class="adress">San Jose, CA</p>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</footer>
-	<!--  End Footer Section  -->
-
-	<!--    Start Back To Top    -->
-	<a href="#" class="btn_fancy" id="back_top">
-		<div class="solid_layer"></div>
-		<div class="border_layer"></div>
-		<div class="text_layer">
-			<img src="img/top_arrow.png" alt="Back to top" title=""
-				class="top_arrow">
-		</div>
-	</a>
-	<!--    End Back To Top    -->
-
-
-
-
-
-	<!--    Javascript Files    -->
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV0_bwqWVhyu_q7No1ChYOOu_xPA7kLEs&v=3.exp"></script>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/touchSwipe.min.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript" src="js/foundation.min.js"></script>
-	<script type="text/javascript" src="js/foundation/foundation.topbar.js"></script>
-	<script type="text/javascript" src="js/carouFredSel.js"></script>
-	<script type="text/javascript" src="js/scrollTo.js"></script>
-	<script type="text/javascript" src="js/map.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
